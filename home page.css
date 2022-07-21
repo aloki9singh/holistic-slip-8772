@@ -1,0 +1,269 @@
+.nav{
+    box-shadow: 0 2px 4px 0 rgb(219 219 219 / 50%);
+    width:100vw;
+   height:100;
+  position:fixed;
+  top:0px;
+  background-color:white;
+ padding-bottom:15px;
+  transition:top 0.2s ease-in-out
+}
+body{
+    padding-top:100px;
+}
+#nav1{
+    align-items: center;
+   justify-content: space-between;
+  display :flex;
+  margin:20px;
+}
+#nav2{
+    justify-content: space-around;
+    font-size:12px;
+    align-items: center;
+   display :flex;
+    width:60%;
+    margin :auto;
+}
+.nav2:nth-child(2){
+    width:50%;
+}
+hr{
+ border-top:1px solid black
+}
+#sec1,#nav1>div{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 30px 0px 30px;
+    font-size: 12px;
+    /* border:1px solid rgb(49, 47, 47) */
+}
+
+#nav1>div:nth-child(2){
+    font-size: 16px;
+    font-weight:bold;
+    padding-left:75px;
+    color: rgb(68, 66, 66);
+}
+#nav2>div{
+    margin-top:18px;
+}
+img{
+    width:100%
+}
+#left{
+    width: 280px;
+    position:absolute;
+    margin:15px;
+    margin-left:60px;
+    align-content: space-between;
+    
+   
+}
+p:nth-child(1){
+    font-size:2.4rem;
+    color: rgb(68, 66, 66);
+}
+p:nth-child(2){
+    font-size:1.05rem;
+    line-height:22px;
+    margin-top:-10px;
+}
+p:nth-child(3){
+    font-size:0.8rem;
+    line-height:20px;
+    color: rgb(87, 82, 82);
+}
+button{
+    width: 100%;
+    padding:8px;
+    background-color:white;
+    margin-top:10px;
+    border-radius:5px;
+    border:1px solid;
+}
+#nav1>div>img{
+ width:20px;
+ height: 15px;
+ align-items:center;
+}
+#nav1>div>div,#nav1>div>img{
+    margin:0px 5px;
+    font-size:12px
+}
+#sec2{
+    background-color:rgb(254, 244, 244);
+    height:500px;
+    display:flex;
+    margin:30px;
+}
+#sec2>div:first-child{
+  width:380px;
+  margin: 0px 40px;
+  line-height: 40px;
+  font-size:18px;
+}
+#sec2>div:nth-child(2){
+    display:flex;
+}
+#sec2>div>div{
+background-color: white;
+margin: 20px;
+padding:10px
+}
+#sec2>div>div>img{
+  height:180px
+}
+#sec2>div>div>p:nth-child(5){
+    font-size:14px;
+    margin-top:-15px;
+}
+#sec2>div>div>p:nth-child(3){
+    font-size:14px;
+}
+#sec2>div>div:last-child>button{
+    margin-top:-12px;
+}
+body>p{
+    text-align: end;
+    margin-right:40px;
+}
+#sec3{
+    background-color:rgb(252, 246, 253);
+    padding:50px 20px;
+    text-align: center;
+    margin: 0px 30px;
+    
+}
+#sec3sub{
+    display:flex;
+}
+#sec3sub>div{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#sec3sub>div>p{
+    margin:10px;
+    color:rgb(108, 99, 99)
+}
+#sec3>button{
+    width:25%;
+    padding:10px;
+    background-color:white;
+    margin-top:45px;
+    margin-bottom:30px;
+    border-radius:5px;
+    border:1px solid;
+    font-size: 15px;
+}
+#footer{
+    display:flex;
+    margin: 20px;
+}
+#footer>div{
+    display: flex;
+    width:50%;
+}
+#footer>div>div{
+ width:40%
+}
+#footer>div>div>li{
+    list-style: none;
+    font-size:11px;
+    line-height: 33px;
+    color: rgb(31, 24, 24) ;
+    
+}
+#footer>div>div>li:first-child{
+   color: rgb(34, 29, 29) ;
+   font-weight: bold;
+}
+#footer>div>p{
+    margin:25px;
+    margin-left:40px;
+    font-size: 25px;
+}
+span{
+    display: flex;
+    margin-top:-10px;
+    margin-bottom: 10px;
+
+}
+#span>li{
+    margin:5px;
+    font-size:11.5px;
+}
+#per{
+    background-color:rgb(225, 236, 240);
+    padding:30px ;
+    margin: 0px 30px;
+    margin-top: 20px;
+}
+#persub{
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    margin:0px 90px;
+    text-align: center;
+}
+#persub>div>li{
+  list-style:disc;
+  font-size: 17px;
+  line-height: 25px;
+
+}
+#persub>button{
+   width:auto;
+   height:40px;
+   margin-top: 40px;
+}
+#persub>div{
+    margin-top: 20px;
+}
+#persub>h1{
+    font-size:30px;
+}
+#sec4{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    margin: 0px 30px;
+    margin-top: 20px;
+    display:flex;
+    background-color:whitesmoke
+
+}
+#sec5{
+  
+    margin: 0px 30px;
+    margin-top: 20px;
+    display:flex;
+}
+#sec5>div{
+    background-color:rgb(235, 235, 220);
+    margin:10px;
+    display:flex;
+    border-radius: 10px;
+}
+#sec4>div{
+    margin:70px;
+    width:30%;
+    text-align: center;
+}
+#sec5>div>div>img{
+    width:300px;
+    border-radius: 5px;
+    margin-bottom:-5px;
+}
+#sec4>div>p{
+    font-size:16px;
+}
+.one{
+    margin:15px 10px 30px 40px ;
+}
+.one>p,.one>h4{
+    margin-top: 40px;
+}
+#sec3>p{
+   margin-bottom:40px; 
+   margin-top:30px;
+}
