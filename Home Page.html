@@ -8,127 +8,42 @@
     <title>
             Rodan + Fields® | Dermatologist Inspired Skincare Products
     </title>
-    <style>
-        .nav{
-            box-shadow: 0 2px 4px 0 rgb(219 219 219 / 50%);
-            width:100%;
-           height:6rem;
-           position:relative;
-           top:0px;
-          
-        }
-        #nav1{
-            align-items: center;
-           justify-content: space-between;
-          display :flex;
-          margin:20px;
-        }
-        #nav2{
-            justify-content: space-around;
-            font-size:12px;
-            align-items: center;
-           display :flex;
-            width:60%;
-            margin :auto;
-        }
-        .nav2:nth-child(2){
-            width:50%;
-        }
-        hr{
-         border-top:1px solid black
-        }
-        #sec1,#nav1>div{
-            display:flex;
-            justify-content: space-between;
-            margin:0px 30px 0px 30px;
-            font-size: 12px;
-        }
-        #nav1>div:nth-child(2){
-            font-size: 16px;
-            font-weight:bold;
-            padding-left:75px;
-            color: rgb(68, 66, 66);
-        }
-        #nav2>div{
-            margin-top:18px;
-        }
-        img{
-            width:100%
-        }
-        #left{
-            width: 280px;
-            height:auto;
-            position:absolute;
-            margin:15px;
-            margin-left:60px;
-            align-content: space-between;
-            
-           
-        }
-        p:nth-child(1){
-            font-size:2.4rem;
-            color: rgb(68, 66, 66);
-        }
-        p:nth-child(2){
-            font-size:1.05rem;
-            line-height:22px;
-            margin-top:-10px;
-        }
-        p:nth-child(3){
-            font-size:0.8rem;
-            line-height:20px;
-            color: rgb(87, 82, 82);
-        }
-        button{
-            width: 100%;
-            padding:8px;
-            background-color:white;
-            margin-top:30px;
-            border-radius:5px;
-            border:1px solid;
-        }
-       #nav1>div>img{
-         width:20px;
-         height: 15px;
-         align-items:center;
-        }
-        #nav1>div>div,#nav1>div>img{
-            margin:0px 5px;
-            font-size:12px
-        }
-
-    </style>
+    <link rel="stylesheet" href="home page.css" />
+    
 </head>
 <header >
-    <div class="nav">
-        <div id="nav1">
-          <div>FIND A CONSULTANT</div>
-           <div >RODAN + FIELDS</div>
-           <div> 
-            <div>Search</div>
-            <img src="https://static.vecteezy.com/system/resources/previews/005/002/099/original/magnifying-glass-icon-search-loupe-lens-glass-magnifier-find-zoom-sign-icon-free-free-vector.jpg"/>
-            <div>Sign in </div>
-            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRcC3dkBQF7e4-6fOmYw2RT7h0IiKCCZTOhVZsi9WNXtQ5GYK1H"/>
-            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBfV8SKvUEAIZodiZfGxMB_QctEuYU8vyH14FF6j3YrvCkqr9s"/>            <img src="data:image/png;base64,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"/>
-            <div>English</div>
+    
+        <div class="nav">
+            <div id="nav1">
+              <div>FIND A CONSULTANT</div>
+               <div >RODAN + FIELDS</div>
+               <div> 
+                <div>Search</div>
+                <img src="https://static.vecteezy.com/system/resources/previews/005/002/099/original/magnifying-glass-icon-search-loupe-lens-glass-magnifier-find-zoom-sign-icon-free-free-vector.jpg"/>
+                <div>Sign in </div>
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRcC3dkBQF7e4-6fOmYw2RT7h0IiKCCZTOhVZsi9WNXtQ5GYK1H"/>
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBfV8SKvUEAIZodiZfGxMB_QctEuYU8vyH14FF6j3YrvCkqr9s"/>            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAq1BMVEX///+yIjQ8O26vDSbXmqCzGjCyIDKwESnQipC6PkywFSvJeIDBXGY6OW03N2xkVn4xMGguPXIdG1+5IC5LSngvLmcpKGRfXoUxL2glJGLx8fT4+PoiIGFwb5GwsMF6eZiQj6jCws/T09xRUHzi4ujLy9YYFl0DAFeoqLu4uMdYV4CBgJ1DQnNkY4hNTXnc3OScnLEOC1nn5+uLi6V/fpwTEVu2CR+goLRqao0RJVxPAAAJy0lEQVR4nO2dfZOiOhbGz3Lv7t59STbtkCgvIiDYgtraaI9+/0+2RIKdYO+WfapuWWHy/OFMp3mmKr8K8nA4YcB7nl5+/MVWgcOGkcOGkoaNfjEzQr4Y/OpAjHsM2AhL+P0UF4t7HDxhdzhQ7jFgo3MQdzR4lt3RIALmdzRQbuuxERG8V7CbBExHEQSvUfQaBDqkWTDZQfUe6JCwbtuxET9vigjCIkw+Z04XTVMAFE2jnWosaQ+CqGj2/o0b2m07No/MSpA6BNrSYNNQjoVTfREF6fXAcqavNqTbemye95G101kITxeNI4AoNr/IxLw9MFsZY0j3CLBNQmhgcDWkU4gimJoT5wmEEE5MbDi3/djoDk6rKlJnmToBedVst03FjcEgqiYL2HU0VDBDul9+/maremybN+aJU32dHdkqGqmgVKSKUDdI6k3gMX9Du7FuEOf2+O/Wqj9JKek/2i+gTK0NGUyJOstI1n11XX9Wg+x4pHi3NwF75d2LweY+z26A3R0oylLcDT7sHhU2GqwWkL3Gxvc7j18zWKyMPEtE/AHwERt3Bw+7R4aNrdW4nme3uRpca3l23v8L2q3Ww+6xYfNEF1MPsZ5n41SOhVP9lKT8GnLLGcW4x4bN49dEOgxmMs/OzWBGVjLPrsw7+IfdY8MmMmiXUWwOxu2ygmxwGzCHohhWQx52jwabSlizaDPxm5OZZ0+hP9lE6kZUgRJlFgRVfy39rnss2Gh3H0TqmrXfW90iIm9vXZ6dM+qxusuz6kCPzIW8ySQ490iwEX8vPpdIn2cPh+7qd42yavGI/jJJtVX2ffcYsMnbICCU6l9U7Y/xfh9TagSz9keQt02eMYhyW4/tbTHf7eF8mWs1RbJbXC4Al8ti9zlzuphfzrDfzRdvnzCwbuux3WKqPnF/341p0bWduDpQK+Si3S8//mqr1EnaxdSSGadZfJBTPBiVRsZkyA13RppAul9+/M1W9ZeEWM5nY979ECEnPngixTaS0DCYodz2lyk9AU0KuZlI2RGyCo4mDZHDoYFBdMW57cdG00yIZbNVP3V/8DKN42PJjcFtUwuRpWaexbntx0aWQsYDv5viSS0Rv/2T+WrxqOTvy/Qgll2xdjolePcIsHW1/r7g39R0OEjrRn+c1w2ytaoFodxjwHYTmwkfzvFM7/MgbBafwRcz47H7jK2KZsWMwtHD7pFho4f1IYPmcF7rj93X5/aLPGt/9YmIztvBNmCc11oN5GH32LDdYupCz7MqphZadPVY0kdXgnCPDFsbU88y21PjjGJM4ljHxrzFTsLYGcnscffIsHmzVE58mGflxNOZCdi73pyZMB52S2w//26r7rEFRTjNBjRaQtk0LALjQHaA4xEODOeW/8Af1uq+urvMOIvTvlLWV87SmIpsadRneVZzXmcc5/ZGUAG5Tu6s1o3koL7m6VxdJglTv9APlLfu/bfY993jwEZ30f0Tdl5V9y25ItrdP3bHuK3HRoRYJVAHwsizQryH4bsQRp4VQQ3JSphNqDi37diIX+ZlBEWZ64/dF/u8BCjzvd5Gut6XBUTt4XqeRbptx+ZRFVMTri2imYqpenQlvAu5ha8tIqzbemweWV0LjYERHBiVj93N6EqCa6FxYiYMnNt+bF7cQATrQRvpUh6wHLSRrtsDm2GeRbntx0ZrSIMyNBMpT6K6jgYtuUFYihRq84Efzj0CbOmUkzit1WnWl9MYpUwvqcnH7oeY8OnRxIZz24+tC/QqpvJKPRNmtw+PUJXBrtFVxX+6UY2TKPcYsBmnF9xvMaML+CK6Zl80oT7sHhU2Fq8uso3UzLOyjfSyis1NVfFrFL3Hxqaqh91SL/+wVl80oUZtcAghNzZVtQMQhWYTatgOQPthNqE+5u6w2f94+SaxiOQiTMz1co2p0cloQu1CbuEzjLvD9uxqI1r/qwl1NcizX7SR0onMsxOKc48OWwV7iAZ5tiW0h0E9g14gDOEywPaoezTY1AoR0eFjOmjJpXPYfRz62lC/qSrLZzzPOM49FmxUPWmvL6JNVipEbLsGBXpqsxbfqU1Vyz61BYTEfXL7rnsk2Mg217ZFqdI1S1NV3r5+qDbSvN+M9nkgwj0GbISwI1BqvIGCEBLkebuizEFK4cjMV1Ug3dZj86fLbQ6pv5xqj4rreukD+Mu61ganSz+FfLuc+p8wsG7bsRGSqXsGrR2N1E031mg02lXVKdNgYN22Y/O84BpTzehKg2tMrYynAbNryI1ORpEI6X75+U9bdStTXl8SMGgj7V4SMHjsLovd2bBMiXKzf1mr/pIQQJTAoJ7BTpDncDJpiBKSCMz6N9JtfwWEHvc02IXqhLq1ka4nk/OgjZSGl4Dtj2YTKs5tPzYybVcA9ZZqj5SaZN3Omddqwmof1bI9jASq+VRdJnHuEWBTtzzdZ1C8aT+qv76p1hf9QHY+M7x7DNhuopRt4XC/qeoAW2YMUkonRTGhg8EH3SPDRjfHTQXFaZPqeTbdnAqo2l9p/aaXdLMB2GxSrQbysHt02LrN7gCp3kaadmOh8eodFXJLnHtc2NqYWrWjjW++ksKXmd+Mrl5wkv5NgHOPDFt3B5QP86x8KcVgIxBh0j944eLD7rFhC/awyIcviWGwX8B+0ISawvlsnI7fcY8G2237NmWT9bCNNJkwmuubvWXinwtxMfPs4+6xYGPduiFb2W7FVV32oi6TWy7brLoCI+sXmCxJ9nu6v+8eB7b2Iqgn0k48MVpfVJ7tL4n6pqrvuz3v5d/WSjWhcj5Zw1Jwo/TD+UfTfHBuPHbnYgnrCdc7ALFu2zd9E7+qkhDyKjvrj92zqk0TVZXpbaTnrMohTKpKf+yOdFtfpuxjaqmfY31MNbav0O6lp0Z0xbqtx+bRa7RKzbzFfVloNKOrd309Vm6+4BTpth+bFxftfAYbgYgvl8ZgXx6TL1wohnkW5bYfWzvHhBaDNlK2hvl82CcUNwVZD2gg3fZjo+lC0HhdGzRYtWXMS4yJkzqJqZingyZUlNt+bEYb6efMiWob1Wc+827x/5Mbyj0CbM+Qw/bLYaPPk813Cf95nupn31ni9efWCZycnJycnJycnJycnJyc/o+e3XNtp+DZHf52Cp5d8LNTDhtKDhtKDhtKDhtKDhtKDhtKDhtKDhtK8Oy3BdkpePa7qezUsysJTk5OTk5OTk5OTk5OTr+wnv0/RtkpePb/T2anXJkSJYcNJYcNJYcNJYcNJYcNJYcNJYcNJYcNJfd4GSV49vZpO/XsSoKTk5OTk5OTk5OTk5PTL6zfnRCC35wQcmVKlBw2lBw2lBw2lBw2lBw2lBw2lBw2lBw2lBw2lBw2lP4LXeRqcnzlN5MAAAAASUVORK5CYII="/>
+                <div>English</div>
+               </div>
            </div>
-       </div>
-       
-       <hr>
-      
-       <div id="nav2"> 
-           <div>SHOP</div>
-           <div> BEST SELLERS</div>
-           <div> FEATURED</div>
-           <div> OUR STORY</div>
-           <div>PERKS PROGRAM</div>
-           <div> BECOME A CONSULTANT</div>
-           <div> BLOG</div> 
+           
+           <hr>
+          
+           <div id="nav2"> 
+               <div>SHOP</div>
+               <div> BEST SELLERS</div>
+               <div> FEATURED</div>
+               <div> OUR STORY</div>
+               <div>PERKS PROGRAM</div>
+               <div> BECOME A CONSULTANT</div>
+               <div> BLOG</div> 
+            </div>
+           </div>
+    
+    
         </div>
-       </div>
 
-
-    </div>
+   
   
 </header>
 <body>
@@ -141,8 +56,197 @@
             <button>SHOP NOW</button>
         </div>   
    </div>
-</body>
-<footer>
+   <div id="sec2">
+        <div>
+            <h1>Discover the life-changing products loved by millions.</h1>
+            <img src="https://www.rodanandfields.com/en-us/medias/Best-Sellers-Image-Desktop.jpg?context=bWFzdGVyfHJvb3R8NjA5MTd8aW1hZ2UvanBlZ3xoOTcvaGNkLzEyODg5MTg3ODExMzU4LmpwZ3w2ZGZjZGYxNzg4ZDY2ODI2NzQyZTMyNGI2YmExYmRkNGNjYTBkNGI4MzE5OTIwM2M4M2Q1MGZlMmY1YmFjMDJk"/>
+        </div>
+        <div>
+            <div>
+                <img src="https://www.rodanandfields.com/en-us/medias/ENFM030-Thumbnail-458x458.jpg?context=bWFzdGVyfGltYWdlc3wyNTQ2MHxpbWFnZS9qcGVnfGltYWdlcy9oZmQvaGQ2LzE0ODgyMTk1ODk4Mzk4LmpwZ3wyYThhMjQ0NTc4YjI1ZmQ1ODY3MDE5NGMyYjk3MjA2MTRmNDQ2MzdmOGVhYzMxYTFmMDk1YmIyY2Q5NDhjMzIw"/>
+                <h4>Total RF Serum</h4>
+                <p>Energizes millions of surface skin cells by 200% to address all key signs ofskin aging</p>
+                <p>$175</p>
+                <p>Retail Price</p>
+                <h5>* * * * *  4.5 (3374)</h5>
+                <button>ADD TO BAG</button>
+        
+            </div>
+            <div>
+                <img src="https://www.rodanandfields.com/en-us/medias/ENHLSH01-458x458.jpg?context=bWFzdGVyfGltYWdlc3w0MDkxfGltYWdlL2pwZWd8aW1hZ2VzL2gzNS9oODgvMTM5Nzc1NDQ2ODc2NDYuanBnfDlmYTEwMTFkMjFiNzMwYjlhNjU0NTNiYjU5ZDBmMGY3ZWIzNmNiZmYwMTJhMGYzMTFkMzA1ODhkOGI1MjdlMmE"/>
+                <h4>R + F Lash Boost</h4>
+                <p>Night conditioning serum gives the appearance of longer, darker-looking lashes</p>
+                <p>$155</p>
+                <p>Retail Price</p>
+                <h5>* * * * *  4.6 (7986)</h5>
+                <button>ADD TO BAG</button>
+        
+            </div>
+            <div>
+                <img src="https://www.rodanandfields.com/en-us/medias/ESFB150-208x208-mobile-1.jpg?context=bWFzdGVyfGltYWdlc3w0NDM3fGltYWdlL2pwZWd8aW1hZ2VzL2g0MC9oY2MvMTAyOTE4Mjk0NDA1NDIuanBnfDFhM2EwMGZhYWIwMTBkZWE4OTljMDcyMzYyNDNkMDUzNWMzZGU1OGE0ZDVlNTRjZGMyMWY0MmFlZjE3NzE0OGQ"/>
+                <h4>ESSENTIALS Face + Body Sunscreen Broad Spectrum SPF 50</h4>
+                <p>Provides broad spectrum protection to help defend against UV rays</p>
+                <p>$34</p>
+                <p>Retail Price</p>
+                <h5>* * * * *  4.9 (2843)</h5>
+                <button>ADD TO BAG</button>
+            </div>
+        </div>
+      
+        
+    </div>
+    <p>Shop Best Sellers</p>
+    
+        <div id="sec3">
+            <p>Derm Inspired Skincare for Every Concern</p>
+            <div id="sec3sub">
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/medias/Category-Image-1.png?context=bWFzdGVyfHJvb3R8MzcxNDI1fGltYWdlL3BuZ3xoOGIvaDJiLzEzOTAwNTk3MTMzMzQyLnBuZ3w5NTMwMDY2NDkxOTRmNDI1Mjc5ZjIyOTYxYjUyZTFiNDkyNDZhODZmNTJlZmQ4ZjU4NzBmZjI2NzFiMzhmZTMy"/>
+                    <p>Fine Lines + Wrinkles</p>
+                </div>
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/medias/Category-Image-2.png?context=bWFzdGVyfHJvb3R8Mzg1Mjk1fGltYWdlL3BuZ3xoOGUvaGI2LzEzOTAwNTk3MTk4ODc4LnBuZ3xmYzY3MThiYTcyZTNiMjhjNTI4MGZjNTUxMTY5OTgwNjFhMWQzM2Y0ZWQyZjJjMTUwOGEwYjBmM2Y1NjVlMTI3"/>
+                    <p>Acne + Breakouts</p>
+                </div>
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/medias/Category-Image-3.png?context=bWFzdGVyfHJvb3R8MzU2OTI0fGltYWdlL3BuZ3xoNDMvaGJkLzEzOTAwNTk3MjY0NDE0LnBuZ3xhMWMzNDBiMGI0MWJmNjkwMDk2NDc0NGMxMjc4ZjljYzMzODYyYTRmNGUyNjFiYjZlOWZhOWM4ZmUzYTFjZmYz"/>
+                    <p>Uneven Tone + Dark Spots</p>
+                </div>
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/medias/Category-Image-4.png?context=bWFzdGVyfHJvb3R8MzEzMzg3fGltYWdlL3BuZ3xoYjIvaDMwLzEzOTAwNTk3MzI5OTUwLnBuZ3xlOGYwOTgwZmYxNWIzNGVhNjZiN2I1NGI0NWVmZTFhOGQwYmJlOGMzZjE5NzA4ODRjNjZlMzliZDAzZjVhNDk0"/>
+                    <p>Sensitivity + Visible Redness</p>
+                </div>
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/medias/Category-Image-5.png?context=bWFzdGVyfHJvb3R8MjU0NDM1fGltYWdlL3BuZ3xoYjAvaGY4LzEzOTAwNTk3Mzk1NDg2LnBuZ3xlMmE5ZWIyN2YyYTVjZjZiZTVkZmUyZjJjODhmY2Q5MTdmMWM0NWQ1NTQ4MzFmZjM3YjUyNWI3M2NhYjI3ZTll"/>
+                    <p>Dry Skin</p>
+                </div>
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/medias/Category-Image-6.png?context=bWFzdGVyfHJvb3R8Mzc1MzQ5fGltYWdlL3BuZ3xoMjEvaDdiLzEzOTAwNTk3NDYxMDIyLnBuZ3xkNjNjZjczZWMzYzM4MDIyMjA1NzIwOTgwZDM0YTU4MGIzMmY1YmZlZGM2Y2I5ODdmZWU4NDEzMjAxOTgxZGY0"/>
+                    <p>Eyes, Lips + Lashes</p>
+                </div>
+            </div>
+            <button>Shop All Products</button>
+         </div>
 
+         <div id="sec5">
+            <div>
+                <div class="one">
+                    <h1>Ultimate Eye Cream</h1>
+                    <p>6,000 five-star reviews and <br>counting!</p>
+                    <h4>Shop Now</h4>
+                    
+                </div>
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/medias/Homepage-PromoModule-MFEC-Desktop.jpg?context=bWFzdGVyfHJvb3R8MzgyNDU0fGltYWdlL2pwZWd8aDJjL2hkZi8xMzg1NDY1ODIzMjM1MC5qcGd8YjQwNjFlZTlkMDUwNTM2ZDUxZTI2YzE5ZmFhMzM4ZjlkYmQxMTNhNDg2NzJjMDc5NzhmNTEzMTYzYWY5NGI2NA"/>
+                </div>
+               
+            </div>
+            <div>
+                <div class="one">
+                    <h1>BUY now. PAY later.</h1>
+                    <p>4 scheduled payments. No interest. No <br>catch.</p>
+                    <h4>Shop Now</h4>
+                </div>
+                <div>
+                    <img src="https://www.rodanandfields.com/en-us/images/klarna-reverse-regimen.jpg"/>
+                </div>
+                
+            </div>
+
+         </div >
+
+
+         <div id ="sec4">
+            <div>
+                <img src="https://www.rodanandfields.com/en-us/medias/DrImage-HP-USCA.jpg?context=bWFzdGVyfHJvb3R8MTU1NTk2fGltYWdlL2pwZWd8aGI5L2gxYS8xNTM1MjQ4MTM0OTY2Mi5qcGd8MDhhZTg4YmI3NzkwNjYyYmE3OGU5MjMwNGFlMTIxMDFjMDI5N2YyMjliOGZlNmMzYWFhNTg5MmM3YTRkNzY4Nw" />
+               <h3>Derm Inspired</h3>
+               <p>Dr. Katie Rodan + Dr. Kathy Fields founded R+F to give everyone access to life-changing skincare.</p>
+               <p>Meet Our Doctors</p>
+            </div>
+            <div>
+                <img src="https://www.rodanandfields.com/en-us/medias/Clinically-Tested-Card2.png?context=bWFzdGVyfHJvb3R8ODkyMTR8aW1hZ2UvcG5nfGhjNC9oOTAvMTQzNjc5Njg4MjEyNzgucG5nfGMwYmUyOTdlYzA0NjRjNWZjMTMzNTdmYmFlMTU4ZmY5ZWY4YTJkNDEyZWQ1YzM0Mjk2ZTg5MGQzMWY0MGNhZjQ"/>
+                 <h3>Clinically Tested</h3>
+                 <p>Our innovative formulas are tested in our lab and designed to work together to deliver real results.</p>
+                 <p>Discover Multi-Med Therapy</p>
+            </div>
+            <div>
+                <img src="https://www.rodanandfields.com/en-us/medias/Results-Guaranteed-Card3.png?context=bWFzdGVyfHJvb3R8OTM4NzB8aW1hZ2UvcG5nfGgxYy9oZDcvMTQzNjc5Njg4ODY4MTQucG5nfGM4MTI2NzNmNmFlMWE0YTU1M2YzNmY3NDYzMTU4YTk5YWI5YWU5MWJhYzIwY2MxMmU1ZDQzNWIzYTcwM2NkM2Q"/>
+                 <h3>Results Guaranteed</h3>
+                 <p>See and feel the best skin of your life within 60 days or your money back. Even on empty bottles.</p>
+                 <p>Our Money-Back Guarantee</p>
+            </div>
+    
+        </div>
+    
+
+          <div id="per">
+                <div id="persub">
+                    <h1>Personalized Skincare <br>Services</h1>
+                    <div>
+                        <li> Customized recommendations</li>
+                        <li> Learn more about our products</li>
+                        <li>Enjoy ongoing skincare advice</li>
+                    </div>
+                    
+                    <button>
+                        FIND A CONSULTANT
+                    </button>
+
+                </div>
+            </div>
+   
+
+   
+
+</body>
+<hr>
+<footer id="footer">
+   
+    <div >
+        <div>
+            <li>ABOUT R+F</li>
+            <li>PRESS ROOM</li>
+            <li> COMPANY INFO</li>
+            <li>EXECUTIVE TEAM</li>
+            <li>/CAREERS</li>
+            <li>R+F RECYCLING</li>
+            <li>BLOG</li>
+        </div>
+        <div>
+            <li>HELP</li>
+            <li>PRODUCT & HELP CENTER</li>
+            <li>SHIPPING</li>
+            <li>SATISFACTION GUARANTEE</li>
+            <li>PROMOTIONAL TERMS & CONDITIONS</li>
+            <li>R+F FAQS</li>
+            <li>KLARNA</li>
+            <li>SITE MAP</li>
+        </div>
+    </div>
+    <div>
+        <p>Let’s Get Social</p>
+    </div>
+  
 </footer>
+<hr>
+
+<span id="span">
+  <li> © 2022 Rodan & Fields </li>  
+   <li> Privacy Policy  </li>
+   <li>|</li>
+   <li>Terms & Conditions</li>
+   <li>|</li>
+   <li> Accessibility </li>
+   <li>|</li>
+   <li>California Supply Chains Act </li>
+   <li>|</li>
+   <li>DSA Code Of Ethics </li>
+   <li>|</li>
+   <li>  Disclaimer </li>
+   <li>|</li>
+   <li> Preference Center</li>
+</span>
+
+
 </html>
+<script src="nav.js"></script>
