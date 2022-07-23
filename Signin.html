@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="data:image/png;base64,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"/>
+    <title>
+            Account Login | Rodan + Fields®</title>
+            <style>
+                form{
+                  text-align: center;
+                  margin: auto;
+                  width:30%;
+                  height:600px;
+                  border-radius: 10px;
+                  padding:30px;
+                  height:auto;
+                 
+              }
+            
+              input,button{
+                  width:100%;
+                  border-radius:10px;
+                  padding:10px;
+                  border-color: grey;
+                 
+                  
+              }
+              p{
+                  text-align: left;
+                  margin-bottom: 5px;
+                  margin-top:25px;
+              }
+              p:last-child{
+                  text-align: center;
+              }
+             
+              h5{
+                  color: grey;
+                  font-size: 13px;
+              }
+              img{
+                  padding:20px;
+              }
+              span{
+                  color: rgb(23, 113, 198);
+              }
+              .nav{
+                        box-shadow: 0 2px 4px 0 rgb(219 219 219 / 50%);
+                        width:100%;
+                    height:50;
+                    position:sticky;
+                     text-align: center;
+                    background-color:white;
+                    font-size: 20px;
+                    font-weight: bolder;
+                    
+                 }
+                 .nav{
+                    padding:20px
+                 }
+                 #p1{
+                    font-size: 13px;
+                    text-align: center;
+                    margin-bottom: 30px;
+                 }
+            
+            </style>
+ </head>
+ <header>
+    <div class="nav">
+            
+        RODAN + FIELDS
+        </div>
+        
+ </header>
+ 
+<body>
+    
+</body>
+</html>
+<form>
+    
+    <h1>SIGN IN</h1>
+     
+      <p>Email</p>
+      <input id="email" type="email" placeholder="Enter email">
+      <p>Password</p>
+      <input id="password" type="password" placeholder="Enter password">
+      <h5>This site is protected by reCAPTCHA and the <span> Google Privacy Policy </span> and<span>Terms of Service</span>apply </h5>
+               
+      <p id="p1">We updated our <span>Terms & Conditions</span> on 8/3/21. By clicking “SIGN IN” you agree to our updated terms, in addition to our <span>Privacy Policy.</span>.</p>
+
+      <input type="submit" value="SIGN IN">
+      <p>Forgot Password ?</p> <span><a href="signup.html">Sign up here</a></span>
+
+</form>
+
+</body>
+</html>
+<script>
+let form=document.querySelector("form");
+let signupLS=JSON.parse(localStorage.getItem("signup"))||[]
+console.log(signupLS)
+form.addEventListener("submit",function(event){
+event.preventDefault();
+if(signupLS.length===0){
+  alert("No User exist");
+  return;
+}
+  let obj={
+      email:form.email.value,
+      password:form.password.value
+  }
+let flag=false;
+signupLS.forEach(function(ele){
+if(ele.email===obj.email&&ele.password==obj.password){
+    flag=true;
+localStorage.setItem("Signin",JSON.stringify(ele))
+
+  alert("login successful")
+   window.location.href="Home page.html"
+}
+
+})
+
+if(flag===false){
+alert("User Doesnot Exist")
+}
+
+})
+
+</script>

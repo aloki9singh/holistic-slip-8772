@@ -1,0 +1,157 @@
+.nav{
+    box-shadow: 0 2px 4px 0 rgb(219 219 219 / 50%);
+    width:100vw;
+   height:100;
+  position:fixed;
+  top:0px;
+  background-color:white;
+ padding-bottom:15px;
+  transition:top 0.2s ease-in-out
+}
+a{
+    color:black
+}
+body{
+    padding-top:100px;
+}
+#nav1{
+    align-items: center;
+   justify-content: space-between;
+  display :flex;
+  margin:20px;
+}
+#nav2{
+    justify-content: space-around;
+    font-size:12px;
+    align-items: center;
+   display :flex;
+    width:60%;
+    margin :auto;
+}
+.nav2:nth-child(2){
+    width:50%;
+}
+hr{
+ border-top:1px solid black
+}
+#sec1,#nav1>div{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 30px 0px 30px;
+    font-size: 12px;
+    /* border:1px solid rgb(49, 47, 47) */
+}
+
+#nav1>div:nth-child(2){
+    font-size: 16px;
+    font-weight:bold;
+    padding-left:75px;
+    color: rgb(68, 66, 66);
+}
+#nav2>div{
+    margin-top:18px;
+}
+img{
+    width:100%
+}
+#nav1>div>img{
+    width:20px;
+    height: 15px;
+    align-items:center;
+   }
+   #nav1>div>div,#nav1>div>img{
+       margin:0px 5px;
+       font-size:12px
+   }
+#footer{
+    display:flex;
+    margin: 20px;
+}
+#footer>div{
+    display: flex;
+    width:50%;
+}
+#footer>div>div{
+ width:40%
+}
+#footer>div>div>li{
+    list-style: none;
+    font-size:11px;
+    line-height: 33px;
+    color: rgb(31, 24, 24) ;
+    
+}
+#footer>div>div>li:first-child{
+   color: rgb(34, 29, 29) ;
+   font-weight: bold;
+}
+#footer>div>p{
+    margin:25px;
+    margin-left:40px;
+    font-size: 25px;
+}
+span{
+    display: flex;
+    margin-top:-10px;
+    margin-bottom: 10px;
+
+}
+#span>li{
+    margin:5px;
+    font-size:11.5px;
+}
+#mid{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#child{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 30px 90px  30px 90px;
+    
+}
+.submid{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:35px 50px;
+    width:400px;
+    height:210px;
+  
+
+
+}
+.submid:nth-child(1){
+margin-left: 60px;
+}
+input{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border:0;
+    width:100%;
+    margin-top: 25px;
+}
+button{
+    width: 100%;
+    padding:10px;
+}
+.p{
+    font-size: 14.5px;
+}
+#f{
+    color: white;
+}
+
+
+@media only screen and (max-width: 800px) {
+    #child{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+   
+        
+    }
+    #mid{
+        text-align: center;
+    }
+  }
+  hr{
+  color: rgb(77, 72, 72);
+  }
