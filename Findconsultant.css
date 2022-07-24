@@ -155,3 +155,7 @@ button{
   hr{
   color: rgb(77, 72, 72);
   }
+  .c{
+   background-color: black;
+   color: white;
+  }

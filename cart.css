@@ -1,0 +1,258 @@
+.nav{
+    box-shadow: 0 2px 4px 0 rgb(219 219 219 / 50%);
+    width:100vw;
+  position:fixed;
+  top:0px;
+  background-color:white;
+  transition:top 0.2s ease-in-out
+}
+a{
+    color:black
+}
+body{
+    padding-top:50px;
+}
+#nav1{
+    align-items: center;
+   justify-content: space-between;
+  display :flex;
+  margin:22px;
+}
+
+hr{
+ border-top:1px solid black;
+ margin-bottom: -3px;
+}
+#sec1,#nav1>div{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 30px 0px 30px;
+    font-size: 12px;
+}
+
+#nav1>div:nth-child(2){
+    font-size: 16px;
+    font-weight:bold;
+    padding-left:75px;
+    color: rgb(68, 66, 66);
+}
+
+img{
+    width:100%
+}
+#nav1>div>img,#cart{
+    width:20px;
+    height: 15px;
+    align-items:center;
+   }
+   #nav1>div>div,#nav1>div>img{
+       margin:0px 5px;
+       font-size:12px
+   }
+#footer{
+    display:flex;
+    margin: 20px;
+}
+#footer>div{
+    display: flex;
+    width:50%;
+}
+#footer>div>div{
+ width:40%
+}
+#footer>div>div>li{
+    list-style: none;
+    font-size:11px;
+    line-height: 33px;
+    color: rgb(31, 24, 24) ;
+    
+}
+#footer>div>div>li:first-child{
+   color: rgb(34, 29, 29) ;
+   font-weight: bold;
+}
+#footer>div>p{
+    margin:25px;
+    margin-left:40px;
+    font-size: 25px;
+}
+span{
+    display: flex;
+    margin-top:-10px;
+    margin-bottom: 10px;
+
+}
+#span>li{
+    margin:5px;
+    font-size:11.5px;
+}
+
+
+.tc>div>div{
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: -10px;
+    color: rgb(67, 67, 67);
+}
+
+#container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    margin:30px;
+}
+.product{
+  margin:20px;
+
+}
+.product>img{
+    width:100%;
+}
+.product>p{
+    width:100%;
+}
+#hr{
+  margin-bottom:20px;
+}
+#nav2{
+    justify-content: space-around;
+    font-size:12px;
+    align-items: center;
+   display :flex;
+    width:60%;
+    margin :auto;
+    padding-bottom:10px ;
+}
+.nav2:nth-child(2){
+    width:50%;
+}
+#nav2>div{
+    margin-top:18px;
+}
+
+#t{
+    margin-top:120px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#i{
+    background-color: rgb(225, 254, 254);
+    padding:5px;
+    text-align: center;
+    margin:0px 280px;
+    font-size: 14px;
+    color:rgb(92, 83, 83);
+
+}
+
+
+#main{
+    margin:auto;
+    width:70%;
+    display:flex;
+    margin-top: 10px;
+}
+
+#one{
+    width: 60%;
+    text-align: center;
+    padding:20px;
+    background-color: rgb(212, 212, 211);
+    height:150px;
+    border-radius:5px;
+    margin:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.two{
+    width:45%;
+    font-size: 15px;
+}
+#two>div{
+  height:250px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.sp{
+    display:flex;
+    justify-content: space-between;
+    margin:10px 0px;
+}
+
+#pc>img{
+  width:20%
+}
+p:nth-child(4),p:nth-child(3){
+    font-size: 13px;
+    margin-top: -10px;
+}
+#bt{
+    color: white;
+    background-color: black;
+    padding: 7px 50px;
+    font-size: 11px;
+    
+    border-radius: 5px;
+}
+input{
+    width:70%;
+    height:40px;
+    margin-left: -10px;
+    border-radius: 5px 0px 0px 5px;
+}
+#bt1,#bt2{
+    width:95%;
+    font-size: 16px;
+    margin: 10px;
+    padding:5px;
+    background-color: white;
+  
+}
+
+#promo>button{
+    padding:10px;
+    width: 30%;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px0px ;
+}
+#o{
+    margin-bottom:30px;
+}
+#bt2{
+    background-color: black;
+    color:white;
+}
+#promo{
+   padding:10px;
+   width:100%;
+}
+#sub2{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:20px;
+    margin:10px;
+  
+}
+@media only screen and (max-width: 840px) {
+    #child{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+   
+        
+    }
+    #container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(auto,1fr);
+    
+    }
+    
+  }
+@media only screen and (max-width: 600px) {
+    #container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(auto,1fr);
+    
+    }
+    
+
+}

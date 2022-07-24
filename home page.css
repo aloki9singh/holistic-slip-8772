@@ -85,7 +85,7 @@ button{
     border-radius:5px;
     border:1px solid;
 }
-#nav1>div>img{
+#nav1>div>img,#cart{
  width:20px;
  height: 15px;
  align-items:center;
