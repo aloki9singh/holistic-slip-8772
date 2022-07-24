@@ -1,10 +1,10 @@
-var product = [
+var product_data = [
     {
       image_url: "https://www.rodanandfields.com/en-us/medias/AAWA125-AATN125-AATT030-AAPM030-REDEFINE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3wzMTE2NXxpbWFnZS9wbmd8aW1hZ2VzL2hkNy9oMWMvMTM3NTgzODQwNzg4NzgucG5nfDE5NTM4Yzc1OTA0MWNiY2M5NzYwMDZhMTQ0NGVmZDEzZmRhYzVlZWE4YWRhODk3NWQ0ZGU1NDlhNzVjZTUyOTU"     ,
       best:"Best Seller"   ,
       name: "REDEFINE Regimen ",
       line:"Visibly lifts, sculpts + firms while minimizing the appearance of lines + deep wrinkles.  ",
-      price: "$220($275)",
+      price: "220",
       stars: "**** 4.7 (7340)",
     },
     {
@@ -12,7 +12,7 @@ var product = [
         best:"Best Seller"   ,
         name: "REVERSE Regimen ",
         line:" Brightens + refines skin’s surface while tackling the look of fine lines + dark spots. ",
-        price: "$195 ($245 )",
+        price: "195",
         stars: "***** 4 (1792)",
       },
       {
@@ -20,7 +20,7 @@ var product = [
         best:"Best Seller"   ,
         name: "UNBLEMISH Regimen ",
         line:" Helps clear and prevent adult acne while visibly minimizing pores + fine lines.",
-        price: "$190 ($240 )",
+        price: "190 ",
         stars: "***** 4.4 (463)",
       },
       {
@@ -28,7 +28,7 @@ var product = [
         best:"Best Seller"   ,
         name: "SOOTHE Regimen ",
         line:" Protects sensitive skin, reduces visible redness + fortifies skin’s moisture barrier. ",
-        price: "$185 ($235 )",
+        price: "185 ",
         stars: "***** 4.3 (672)",
       },
       {
@@ -36,7 +36,7 @@ var product = [
         best:""   ,
         name: "SPOTLESS Regimen ",
         line:"For teens + young adults: Clears existing blemishes + prevents new ones from forming. ",
-        price: "$89",
+        price: "89",
         stars: " *****4.7 (7340)",
       },
       {
@@ -44,7 +44,7 @@ var product = [
         best:""   ,
         name: " RECHARGE Regimen",
         line:"Defends against lifestyle stressors that leave skin looking dull, blotchy + dehydrated.  ",
-        price: "$134 ",
+        price: "134 ",
         stars: "***** 4.6(723)",
       },
      
@@ -53,7 +53,7 @@ var product = [
         best:""   ,
         name: "REDEFINE + Total RF Serum Special ",
         line:"Save on our best selling Regimen + most comprehensive anti-aging serum. ",
-        price: "$358 ($450 )",
+        price: "358 ",
         stars: "***** 4.6(723)",
       },
       {
@@ -61,7 +61,7 @@ var product = [
         best:""   ,
         name: "REVERSE + Total RF Serum Special ",
         line:" Save on our best selling Regimen + most comprehensive anti-aging serum.",
-        price: "$334 ($420 )",
+        price: "334 ",
         stars: "***** 4.6(723)",
       },
       {
@@ -69,7 +69,7 @@ var product = [
         best:""   ,
         name: " UNBLEMISH + Total RF Serum Special",
         line:" Save on our best selling Regimen + most comprehensive anti-aging serum.",
-        price: "$328 ($415 )",
+        price: "328",
         stars: "",
       },
       {
@@ -77,7 +77,7 @@ var product = [
         best:""   ,
         name: " SOOTHE + Total RF Serum Special",
         line:" Save on our sensitive skin Regimen + our most comprehensive anti-aging serum. ",
-        price: "$323 ($410 )",
+        price: "323",
         stars: "",
       },
       {
@@ -85,7 +85,7 @@ var product = [
         best:""   ,
         name: "RECHARGE + Total RF Serum Special ",
         line:"Boost + lift, balance + tighten, defend + brighten! Recharge your complexion every day. ",
-        price: "$272 ($309 )",
+        price: "272 ",
         stars: "",
       },
       {
@@ -93,7 +93,7 @@ var product = [
         best:""   ,
         name: "REDEFINE + Lash Boost Special ",
         line:"Ditch wrinkles + mascara. Visibly lifts, sculpts + firms skin, plus conditions lashes. ",
-        price: "$343 ($430 )",
+        price: "343 ",
         stars: "",
       },
       {
@@ -101,15 +101,15 @@ var product = [
         best:""   ,
         name: " REVERSE + Lash Boost Special",
         line:"Visibly revitalize skin + condition lashes for a younger-looking appearance. ",
-        price: "",
-        stars: "***** 4.3 (190)",
+        price: "432",
+        stars: "",
       },
       {
         image_url: "https://www.rodanandfields.com/en-us/medias/HUNRJLP1-UNWA125-UNTJ125-UNTT030-UNSS030-XTPCS01-720x600-desktop-1.jpg?context=bWFzdGVyfGltYWdlc3w0ODE5MHxpbWFnZS9qcGVnfGltYWdlcy9oZTQvaDk1LzEyNzcxNTkwODk3Njk0LmpwZ3w3ZDQ4ZDYzNjI0ZjI3YmU1MjhmOTI0N2QyYzYwNmVkZjY3YTc5MzdlNDBhMGJhN2I5NTRmNDZhYWE2M2NmNDY0"     ,
         best:""   ,
         name: " UNBLEMISH + Lash Boost Special",
         line:" Get fewer pimples + the appearance of longer lashes.",
-        price: "$312 ($395 )",
+        price: "312 ",
         stars: "",
       },
       {
@@ -117,7 +117,7 @@ var product = [
         best:""   ,
         name: "SOOTHE + Lash Boost Special ",
         line:"Visibly reduce redness + condition lashes for a younger-looking appearance. ",
-        price: "$307 ($390 )",
+        price: "307",
         stars: "",
       },
       {
@@ -125,7 +125,7 @@ var product = [
         best:""   ,
         name: "RECHARGE + Lash Boost Special ",
         line:" Get a glowing, luminous look + the appearance of lush, fuller-looking lashes.",
-        price: "$256",
+        price: "256",
         stars: "",
       },
       {
@@ -133,7 +133,7 @@ var product = [
         best:""   ,
         name: " REDEFINE AMP It Up Special",
         line:"Fight wrinkles with micro-exfoliation technology + skin-fortifying serum. ",
-        price: "$400 ($502 )",
+        price: "400",
         stars: "",
       },
       {
@@ -141,7 +141,7 @@ var product = [
         best:""   ,
         name: " REVERSE AMP It Up Special",
         line:" Fight age spots with micro-exfoliation technology + skin-fortifying serum.",
-        price: "$376 ($472 )",
+        price: "376 ",
         stars: "",
       },
       {
@@ -149,7 +149,7 @@ var product = [
         best:""   ,
         name: "REDEFINE Power Up Special ",
         line:"Fight wrinkles + clogged pores with a special that visibly lifts, firms + deep cleans. ",
-        price: "$428 ($535 )",
+        price: "428 ",
         stars: "",
       },
       {
@@ -157,7 +157,7 @@ var product = [
         best:""   ,
         name: "REVERSE Power Up Special ",
         line:"Reveal your brightest complexion with a deep pore clean for more luminous skin. ",
-        price: "$403 ($505 )",
+        price: "403",
         stars: "",
       },
       {
@@ -165,7 +165,7 @@ var product = [
         best:""   ,
         name: " UNBLEMISH Power Up Special",
         line:" This power pair fights pimples + clogged pores for a more youthful-looking complexion.",
-        price: "$398 ($500 )",
+        price: "398 ",
         stars: "",
       },
       {
@@ -173,7 +173,7 @@ var product = [
         best:""   ,
         name: " SPOTLESS Power Up Special",
         line:"This special clears existing acne + deep cleans to prevent future breakouts. ",
-        price: "$297",
+        price: "297",
         stars: "",
       },
       {
@@ -181,7 +181,7 @@ var product = [
         best:""   ,
         name: "RECHARGE Power Up Special ",
         line:" This power pair visibly improves stressed skin while cleaning deep into pores.",
-        price: "$342",
+        price: "342",
         stars: "",
       },
       {
@@ -189,12 +189,13 @@ var product = [
         best:""   ,
         name: "REDEFINE Age Assault Special ",
         line:"This comprehensive anti-aging set visibly firms skin + eye contours and plumps lips. ",
-        price: "$400 ($505 )",
+        price: "400 ",
         stars: "",
       },
 ]
 
 let container=document.getElementById("container");
+let cartLS =JSON.parse(localStorage.getItem("cartpage"))||[]
  
     function display(data){
 
@@ -205,32 +206,32 @@ let container=document.getElementById("container");
         let product=document.createElement("div");
         product.setAttribute("class","product")
 
-          img=document.createElement("img")
+        let  img=document.createElement("img")
           img.setAttribute("src",ele.image_url)
-          best=document.createElement("p")
+        let  best=document.createElement("p")
           best.innerText=ele.best
           best.setAttribute("class","best")
 
-          namer=document.createElement("p")
+       let   namer=document.createElement("p")
           namer.innerText=ele.name
-          liner=document.createElement("p")
+        let  liner=document.createElement("p")
           liner.innerText=ele.line
           liner.setAttribute("class","line")
             
-          price=document.createElement("p");
-          price.innerText=ele.price
+        let  price=document.createElement("p");
+          price.innerText="$ "+ele.price
           price.setAttribute("class","price")
 
-          stars=document.createElement("p");
+         let stars=document.createElement("p");
           stars.innerText=ele.stars
           stars.setAttribute("class","stars")
           
 
 
-          cart= document.createElement("button");
+          let cart= document.createElement("button");
           cart.setAttribute("class","btn")
           cart.innerText="ADD TO BAG"
-          cart.addEventListener("click",function(ele){
+          cart.addEventListener("click",function(){
                 addtocart(ele)
           })
 
@@ -241,13 +242,17 @@ let container=document.getElementById("container");
                 
             
     }
-    display(product)
-
-
- let contain=document.getElementById("container");
+    display(product_data)
 
 function addtocart(product){
 cartLS.push(product);
-alert("ho gya add");
-console.log("cartLS")
+alert("Product added succesfully");
+localStorage.setItem("cartpage",JSON.stringify(cartLS))
 }
+
+
+
+
+
+let username =JSON.parse(localStorage.getItem("Signin"))
+document.getElementById("signin").innerText=username["name"]
