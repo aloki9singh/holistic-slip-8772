@@ -68,6 +68,9 @@
             
             </style>
  </head>
+ <body>
+    
+
  <header>
     <div class="nav">
             
@@ -76,10 +79,7 @@
         
  </header>
  
-<body>
-    
-</body>
-</html>
+
 <form>
     
     <h1>SIGN IN</h1>
@@ -93,17 +93,19 @@
       <p id="p1">We updated our <span>Terms & Conditions</span> on 8/3/21. By clicking “SIGN IN” you agree to our updated terms, in addition to our <span>Privacy Policy.</span>.</p>
 
       <input type="submit" value="SIGN IN">
-      <p>Forgot Password ?</p> <span><a href="signup.html">Sign up here</a></span>
+      <p>Forgot Password ?</p> <span><a href="./signup.html">Click here for Sign up </a></span>
 
 </form>
 
 </body>
 </html>
 <script>
-let form=document.querySelector("form");
+ let form=document.querySelector("form");
 let signupLS=JSON.parse(localStorage.getItem("signup"))||[]
 console.log(signupLS)
-form.addEventListener("submit",function(event){
+// let signupLS=JSON.parse(localStorage.getItem("signup"))
+// console.log(signupLS)
+ form.addEventListener("submit",function(event){
 event.preventDefault();
 if(signupLS.length===0){
   alert("No User exist");
@@ -120,7 +122,10 @@ if(ele.email===obj.email&&ele.password==obj.password){
 localStorage.setItem("Signin",JSON.stringify(ele))
 
   alert("login successful")
-   window.location.href="Home page.html"
+   window.location.href="index2.html"
+       
+//   username= document.getElementById("signin").innerText=obj.name
+//   console.log(obj.name)
 }
 
 })
